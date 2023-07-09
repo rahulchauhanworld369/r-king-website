@@ -1,0 +1,75 @@
+
+
+
+            
+  <div class="main">
+    <div class="infocontarner">
+      <div class="devInfo">
+        <div class="hello"> Hi I am </div>
+        <div class="name">Rahul chauahan</div>
+        <div class="about">Devloper, Entrepreneur, Raider</div>
+        <div class="moreabout">I am a devloper, and I love to music. I live in Gujrat
+        </div>
+
+        <div class="buttons">
+          <a href="/cv.txt" target="_blank">
+            <button type="Downlode CV" class="btn btn-sm">Download CV</button></a>
+          <a href="/contect.html" target="_blank"><button type="Contect Me" class="btn btn-sm">Contact Me</button></a>
+        </div>
+      </div>
+      <div class="devpic"><img src="dev2.png" alt="Rahul chauhan"></div>
+    </div>
+    <div>
+    </div>
+
+    <section id="bio">
+      <div class="leftbio">
+        <img src="images/rahul chahun.jpg" alt="rahul">
+
+      </div>
+
+
+       <section id="bio">
+      <div class="leftbio">
+        <img src="images/rahul chahun.jpg" alt="rahul">
+
+      </div>
+       
+      
+      <div class="rightbio">
+
+        <p>MY BIOGRAPHY</p>
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex reprehenderit quae asperiores soluta nihil
+          harum facilis impedit qui veritatis eius nesciunt earum totam provident ipsa, autem temporibus, sit ducimus
+          non.</h1>
+        <hr>
+      </div>
+
+      <div id="info">
+        <div>
+          <p><b>Name:</b> Rahul chahun</p>
+          <P><B>Email:</B>rahul.chauhan01.rc@gmail.com</P>
+        </div>
+        <div>
+          <p><b>From:</b>Gujrat, India</p>
+          <p><b>phone:</b>+91 7777 902 108</p>
+        </div>
+      </div>
+
+      <div id="follow">
+        <p><b>follow me on:</b>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-github"></i>
+        </p>
+      </div>
+
+      <div id="link-h">
+        <a href="#" id="hire">Hire me</a>
+        <a href="#" id="cv"> Downloade cv</a>
+      </div>
+  </div>
+  </section>

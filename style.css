@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+ header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 0px;
+    background: url('images/riverfront.jpg');
+            background-size: cover;     
+            color: brown;
+} 
+nav{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+} 
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+
+}
+.menu a:nth-child(5){
+    background-color: #2e780f;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+/* .sidebar{
+    background: rgb(183, 177, 177);
+    width: 430px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    background-color: rgb(35, 39, 21);
+    color: rgb(226, 231, 236);
+    border-radius: 25px;
+    text-decoration:underline;
+    padding: 10px;
+
+}
+
+.main{
+     background: yellow; 
+    width: 90vw;
+} */
+
+.contaianer {
+    display: flex;
+
+}
+.infocontarner {
+  /* background: rgb(202, 9, 128) */
+  height: 55vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;  
+}
+
+.devInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hello{font-size: 65px;
+}
+
+.name{
+ font-size: 50px;
+ font-weight: bold;
+ font-family: 'Kalam', cursive;
+ color: red;
+}
+
+.about{ 
+    font-size: 40px;
+}
+
+.moreabout{
+  font-size: 22px;
+  margin-top: 23px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons {margin: 34px;
+}
+
+.btn{
+ padding: 9px 14px;
+ border-radius: 22px;
+ color: white;
+ background-color: dodgerblue;  
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 14px;
+padding: 10px 19px;
+margin: 10px 30px;
+}
+
+.btn-fa{
+    height: 60px;
+    width: 60px;
+    padding: 229px 524px;
+    border-radius: 50%;
+     font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   cursor: pointer;
+   }
+
+.btn-fa{
+    font-size: 14px;
+padding: 10px 19px;
+margin: 10px 30px;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img{
+    height: 55vh;
+    
+}
+
+.contectform {
+    padding: 0 34px;
+    padding-top:  144px; 
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.contectform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+ 
+}
+
+.contectform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contectform  form div input{
+    width: 26vw;
+    border-radius: 5pt;
+    margin: 6px 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 22px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+  flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+   
+
+}
+
+.p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro h2{
+    font-size: 70px;
+    padding: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    
+    text-align: center;
+
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skillcontainer{
+  margin: -100px 200px;
+  padding: 5px;
+}
+
+
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+     flex-wrap: wrap;
+     font-family: 'Poppins', sans-serif;
+}
+
+.leftbio{
+    flex-basis: 30%;
+}
+
+.rightbio{
+    flex-basis: 60%;
+}
+
+.leftbio img{
+    width: 90%;
+    height: 700px;
+    border-radius: 15px;
+    
+}
+
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p{
+    font-size: 1rem;
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+
+.rightbio h1{
+    font-size: 3rem;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+     /* margin: 40px; */
+}
+
+
+#link-h{
+    text-align: center;
+    /* margin-top: 3rem; */
+}
+
+#hire{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin: 0 1.rem;
+    border: 1px dashed greenyellow;
+}
+
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin: 0 1.rem;
+    border: 1px dashed red;
+
+}
+
+

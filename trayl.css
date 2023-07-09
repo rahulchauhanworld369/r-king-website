@@ -1,0 +1,67 @@
+#follow{
+    text-align: center;
+    font-size: 30px;
+    margin: -8px;
+} 
+
+.btn-fa{
+    height: 60px;
+    width: 60px;
+    padding: 229px 524px;
+    border-radius: 50%;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   cursor: pointer;
+   }
+
+.btn-fa{
+    font-size: 14px;
+padding: 10px 19px;
+margin: -8px 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #e4405f;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .fa-github{
+    background: black;
+    color: white;
+
+  }
+
+  .fa-whatsapp{
+    background: green;
+    color: white;
+
+  }
